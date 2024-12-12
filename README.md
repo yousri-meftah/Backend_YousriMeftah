@@ -20,8 +20,8 @@ This repository contains a FastAPI-based project integrated with Redis for cachi
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yousri-meftah/TAHO_AI_TASK.git
-cd TAHO_AI_TASK
+git clone https://github.com/yousri-meftah/Backend_YousriMeftah.git
+cd Backend_YousriMeftah
 ```
 
 ### Install Python Dependencies
