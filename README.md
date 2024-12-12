@@ -63,7 +63,7 @@ cd Backend_YousriMeftah
 ## Endpoints Documentation
 
 ### 1. Search Products
-**Endpoint**: `/search`
+**Endpoint**: `/product/search`
 - **Method**: `GET`
 - **Description**: Search for products by a query string.
 - **Parameters**:
@@ -80,7 +80,7 @@ curl -X GET "http://127.0.0.1:8000/product/search?query=phone"
 ---
 
 ### 2. Get Product by ID
-**Endpoint**: `/{product_id}`
+**Endpoint**: `/product/{product_id}`
 - **Method**: `GET`
 - **Description**: Retrieve details of a product by its ID.
 - **Parameters**:
@@ -98,7 +98,7 @@ curl -X GET "http://127.0.0.1:8000/product/1"
 ---
 
 ### 3. Filter Products by Category
-**Endpoint**: `/category/{category}`
+**Endpoint**: `/product/category/{category}`
 - **Method**: `GET`
 - **Description**: Filter products by category.
 - **Parameters**:
